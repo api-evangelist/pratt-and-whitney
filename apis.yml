@@ -1,18 +1,37 @@
 aid: pratt-and-whitney
-url: https://raw.githubusercontent.com/api-evangelist/pratt-and-whitney/refs/heads/main/apis.yml
 name: Pratt & Whitney
-type: Index
+description: >-
+  A major American aerospace manufacturer designing, manufacturing, and
+  servicing aircraft engines for commercial, military, and business aviation
+  applications. A division of RTX Corporation (formerly Raytheon Technologies),
+  Pratt & Whitney is known for its geared turbofan (GTF) engine technology
+  (PW1000G family) powering the Airbus A220 and A320neo, the F135 powering the
+  F-35 Joint Strike Fighter, and the PT6 turboprop family. Customer-facing
+  digital services - EngineWise health monitoring, FAST (Full-flight data
+  Acquisition Storage and Transmission), and the Customer Portal - are operated
+  privately for airline, MRO, and military customers behind credentialed access
+  and are not exposed as a public developer API or open partner integration
+  portal.
+kind: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Aerospace
   - Defense
   - Aviation
   - Manufacturing
-description: 'A major American aerospace manufacturer designing, manufacturing, and servicing aircraft engines for commercial and military applications. A division of RTX Corporation known for its geared turbofan engine technology.'
+  - Engines
+  - MRO
+  - RTX
+url: https://raw.githubusercontent.com/api-evangelist/pratt-and-whitney/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-09'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.prattwhitney.com/
+  - type: Parent
+    url: https://www.rtx.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
