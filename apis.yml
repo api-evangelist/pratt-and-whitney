@@ -28,6 +28,8 @@ modified: '2026-05-09'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/pratt-and-whitney-domain-security.yml
   - type: Website
     url: https://www.prattwhitney.com/
   - type: Parent
